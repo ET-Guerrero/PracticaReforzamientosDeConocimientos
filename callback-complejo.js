@@ -24,7 +24,7 @@ const salarios = [
     }
 ]
 
-const getEmpleado = ( id , fcallb) => {
+const getEmpleado = ( id , fcallb ) => {
     const empleado = empleados.find(el => el.id === id)?.nombre
     
     if (empleado){
